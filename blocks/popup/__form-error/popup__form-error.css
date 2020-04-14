@@ -1,0 +1,8 @@
+@import url('./_active/popup__form-error_active.css');
+
+.popup__form-error {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+    display: none;
+}

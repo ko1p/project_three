@@ -1,0 +1,12 @@
+.popup__button_type_save {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 48px;
+  color: black;
+  background-color: white;
+  opacity: .7;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
