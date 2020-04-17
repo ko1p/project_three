@@ -1,6 +1,5 @@
   import {Config} from './Config.js';
   import Api from './Api.js';
-  import {ValidationMessages} from './ValidationMessages.js';
   import Card from './Card.js';
   import CardList from './CardList.js';
   import Popup from './Popup.js';
