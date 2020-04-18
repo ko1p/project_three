@@ -4,7 +4,7 @@
 
 Ссылка: [Mesto.Webpack](https://github.com/ko1p/praktikum "Mesto.Webpack")
 
-Сайт. Версия: v. 0.0.1
+Сайт. Версия: v. 0.0.2
 
 ### Технологии: 
 - JS
