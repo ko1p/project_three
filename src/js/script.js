@@ -7,7 +7,7 @@
   import FormValidator from './FormValidator.js';
   import "../pages/index.css"
 
-
+  
   const options = JSON.parse(Config);
   const popupAddNewCard = document.querySelector('.popup-add');
   const userAvatar = document.querySelector('.user-info__photo');
