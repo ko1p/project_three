@@ -1,3 +1,6 @@
 .popup__form-error.popup__form-error_active {
     display: block;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
 };

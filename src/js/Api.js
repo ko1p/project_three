@@ -1,9 +1,8 @@
-import {Config} from './Config.js';
 export default class Api {
   constructor(options) {
-    this.baseUrl = Config.baseUrl;
-    this.authorization = Config.authorization;
-    this.contentType = Config.contentType;
+    this.baseUrl = options.baseUrl;
+    this.authorization = options.authorization;
+    this.contentType = options.contentType;
   }
 
   getUserProfileInfo() {

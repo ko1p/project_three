@@ -1,4 +1,4 @@
-  import {Config} from './Config.js';
+  import { Config } from './Config.js';
   import Api from './Api.js';
   import Card from './Card.js';
   import CardList from './CardList.js';
@@ -8,7 +8,7 @@
   import "../pages/index.css"
 
 
-
+  const options = JSON.parse(Config);
   const popupAddNewCard = document.querySelector('.popup-add');
   const userAvatar = document.querySelector('.user-info__photo');
   const popupEditAvatar = document.querySelector('.popup-avatar');
@@ -39,7 +39,7 @@
   const openingAddCardForm = new FormValidator(popUp);
   const openingEditProfileForm = new FormValidator(popUpFormEdit);
   const openAvatarEdit = new FormValidator(popupEditAvatar);
-  const api = new Api(Config);
+  const api = new Api(options);
   const obj = {};
 
   obj.api = api;
