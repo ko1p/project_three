@@ -1,4 +1,4 @@
-import {Config} from './Config.js';
+import {options} from './script.js';
 import {eventDefinition} from './script.js'
 export default class Card {
   constructor(cardData, openImageCallback) {
@@ -59,11 +59,11 @@ export default class Card {
 
     const basket = template.querySelector('.place-card__delete-icon');
     const likeIcon = template.querySelector('.place-card__like-icon')
-    if (cardData.owner._id === Config.ownerId) {
+    if (cardData.owner._id === options.ownerId) {
       basket.classList.remove('place-card__delete-icon_hide')
     }
     cardData.likes.forEach(function (item) {
-      if (item._id.includes(Config.ownerId)) {
+      if (item._id.includes(options.ownerId)) {
         likeIcon.classList.add('place-card__like-icon_liked')
       }
     })

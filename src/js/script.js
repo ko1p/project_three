@@ -6,9 +6,9 @@
   import UserInfo from './UserInfo.js';
   import FormValidator from './FormValidator.js';
   import "../pages/index.css"
+  export const options = JSON.parse(Config);
 
   
-  const options = JSON.parse(Config);
   const popupAddNewCard = document.querySelector('.popup-add');
   const userAvatar = document.querySelector('.user-info__photo');
   const popupEditAvatar = document.querySelector('.popup-avatar');

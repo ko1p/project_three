@@ -4,7 +4,7 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
-const webpack = require('webpack'); // !! Сам добавил эту строчку, без неё webpack - is not defined в 67 строке. !!
+const webpack = require('webpack');
 
 module.exports = {
   entry: {
