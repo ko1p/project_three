@@ -1,16 +1,20 @@
-# Mesto.Webpack
+# "Mesto"
 
-Здесь я пробую свои силы в настройке сборщика модулей webpack, на примере проекта 'Mesto'.
+Фотосервис "Mesto", где пользователи могут:
+* размещать фотографии
+* удалять ранее размещенные снимки
+* ставить/убирать лайки
+* редактировать свой профиль, аватар
 
-Ссылка: [Mesto.Webpack](https://github.com/ko1p/praktikum "Mesto.Webpack")
+Ссылка: [Mesto](https://ko1p.github.io/project_three/ "Mesto")
 
-Сайт. Версия: v. 0.0.3
+Текущая версия: v.0.0.3
 
 ### Технологии: 
-- JS
-- API
-- GIT
-- Webpack
-- Node.js
-- HTML
-- CSS
+- JS (ES5 / ES6);
+- API;
+- GIT;
+- Webpack;
+- HTML;
+- CSS (flex, grid);
+- BEM;
