@@ -1,4 +1,4 @@
-const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk' : 'https://praktikum.tk';
+const serverUrl = NODE_ENV === 'development' ? 'http://nomoreparties.co' : 'https://nomoreparties.co';
 
 const obj = {
     ownerId: '7bcf191d017bebaa8b251437',
